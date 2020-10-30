@@ -18,6 +18,7 @@ def literal_aoh
   aoh = assembled_aoh
   sort = []
   sort = aoh.sort
+  sort
 end
 
 def aoh_lookup(aoh, row, key)
