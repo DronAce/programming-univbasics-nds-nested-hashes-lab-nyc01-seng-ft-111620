@@ -16,9 +16,7 @@ def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
   aoh = assembled_aoh
-  sort = []
-  sort = aoh.sort_by{|hash| hash[:zip]}
-  sort
+  aoh = aoh.sort_by{|hash| hash[:zip]}
 end
 
 def aoh_lookup(aoh, row, key)
