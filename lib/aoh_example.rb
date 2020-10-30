@@ -17,7 +17,7 @@ def literal_aoh
   # held in the constants
   aoh = assembled_aoh
   sort = []
-  sort = aoh.sort_by{}
+  sort = aoh.sort_by{Hash}
   sort
 end
 
