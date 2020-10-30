@@ -20,6 +20,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
+  aoh = aoh
   aoh[row][:key]
 end
 
